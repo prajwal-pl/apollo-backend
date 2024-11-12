@@ -1,0 +1,121 @@
+{
+  "products": [
+    {
+      "id": "cf001",
+      "category": "Coffee Beans",
+      "description": "Premium Ethiopian Yirgacheffe beans, light roasted to preserve their delicate floral and citrus notes",
+      "image_url": "https://images.unsplash.com/photo-1587734338437-dda7a9032397",
+      "name": "Ethiopian Yirgacheffe Light Roast",
+      "price": 18.99,
+      "rating": 4.8
+    },
+    {
+      "id": "cf002",
+      "category": "Brewing Equipment",
+      "description": "Classic Chemex pour-over glass coffeemaker, 6-cup capacity",
+      "image_url": "https://images.unsplash.com/photo-1520903920513-bc2be4b08b02",
+      "name": "Chemex Classic Coffeemaker",
+      "price": 45.99,
+      "rating": 4.9
+    },
+    {
+      "id": "cf003",
+      "category": "Coffee Beans",
+      "description": "Dark roasted Colombian beans with rich chocolate and caramel notes",
+      "image_url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd",
+      "name": "Colombian Dark Roast",
+      "price": 16.99,
+      "rating": 4.7
+    },
+    {
+      "id": "cf004",
+      "category": "Brewing Equipment",
+      "description": "Precision temperature control electric gooseneck kettle",
+      "image_url": "https://images.unsplash.com/photo-1522012188892-24beb302783d",
+      "name": "Electric Gooseneck Kettle",
+      "price": 79.99,
+      "rating": 4.8
+    },
+    {
+      "id": "cf005",
+      "category": "Accessories",
+      "description": "Premium bamboo coffee filter holder and organizer",
+      "image_url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+      "name": "Filter Holder",
+      "price": 24.99,
+      "rating": 4.5
+    },
+    {
+      "id": "cf006",
+      "category": "Coffee Beans",
+      "description": "Medium roast Brazilian Santos with nutty undertones",
+      "image_url": "https://images.unsplash.com/photo-1587734338437-dda7a9032397",
+      "name": "Brazilian Santos",
+      "price": 15.99,
+      "rating": 4.6
+    },
+    {
+      "id": "cf007",
+      "category": "Brewing Equipment",
+      "description": "Professional grade manual burr coffee grinder",
+      "image_url": "https://images.unsplash.com/photo-1511538524935-4d77b87f4db3",
+      "name": "Manual Burr Grinder",
+      "price": 65.99,
+      "rating": 4.7
+    },
+    {
+      "id": "cf008",
+      "category": "Coffee Beans",
+      "description": "Sumatra Mandheling dark roast with earthy, full-bodied flavor",
+      "image_url": "https://images.unsplash.com/photo-1559525839-b184a4d698c7",
+      "name": "Sumatra Dark Roast",
+      "price": 19.99,
+      "rating": 4.9
+    },
+    {
+      "id": "cf009",
+      "category": "Accessories",
+      "description": "Digital coffee scale with timer for precise brewing",
+      "image_url": "https://images.unsplash.com/photo-1517080790043-86c079ffa5be",
+      "name": "Digital Coffee Scale",
+      "price": 49.99,
+      "rating": 4.8
+    },
+    {
+      "id": "cf010",
+      "category": "Coffee Beans",
+      "description": "Costa Rican Tarrazu medium roast with bright acidity",
+      "image_url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd",
+      "name": "Costa Rican Tarrazu",
+      "price": 17.99,
+      "rating": 4.7
+    },
+    {
+      "id": "cf011",
+      "category": "Brewing Equipment",
+      "description": "Stainless steel French press coffee maker, 34-ounce capacity",
+      "image_url": "https://images.unsplash.com/photo-1520903920513-bc2be4b08b02",
+      "name": "French Press",
+      "price": 39.99,
+      "rating": 4.9
+    },
+    {
+      "id": "cf012",
+      "category": "Coffee Beans",
+      "description": "Light roasted Kenyan AA beans with bright berry and citrus notes",
+      "image_url": "https://images.unsplash.com/photo-1587734338437-dda7a9032397",
+      "name": "Kenyan AA Light Roast",
+      "price": 21.99,
+      "rating": 4.8
+    },
+    {
+      "id": "cf013",
+      "category": "Brewing Equipment",
+      "description": "Classic Hario V60 ceramic pour-over coffee dripper",
+      "image_url": "https://images.unsplash.com/photo-1522012188892-24beb302783d",
+      "name": "Hario V60 Dripper",
+      "price": 29.99,
+      "rating": 4.8
+    }
+  ]
+}
