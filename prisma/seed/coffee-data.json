@@ -1,120 +1,219 @@
 {
   "products": [
     {
-      "id": "cf001",
-      "category": "Coffee Beans",
-      "description": "Premium Ethiopian Yirgacheffe beans, light roasted to preserve their delicate floral and citrus notes",
-      "image_url": "https://images.unsplash.com/photo-1587734338437-dda7a9032397",
-      "name": "Ethiopian Yirgacheffe Light Roast",
-      "price": 18.99,
+      "id": "drink001",
+      "category": "Hot Coffee",
+      "description": "Rich espresso with steamed milk and a layer of silky foam",
+      "image_url": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=800&q=80",
+      "name": "Classic Cappuccino",
+      "price": 4.99,
       "rating": 4.8
     },
     {
-      "id": "cf002",
-      "category": "Brewing Equipment",
-      "description": "Classic Chemex pour-over glass coffeemaker, 6-cup capacity",
-      "image_url": "https://images.unsplash.com/photo-1520903920513-bc2be4b08b02",
-      "name": "Chemex Classic Coffeemaker",
-      "price": 45.99,
-      "rating": 4.9
-    },
-    {
-      "id": "cf003",
-      "category": "Coffee Beans",
-      "description": "Dark roasted Colombian beans with rich chocolate and caramel notes",
-      "image_url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd",
-      "name": "Colombian Dark Roast",
-      "price": 16.99,
+      "id": "drink002",
+      "category": "Hot Coffee",
+      "description": "Double shot of espresso with hot water",
+      "image_url": "https://images.unsplash.com/photo-1521302080334-4bebac2763a6?auto=format&fit=crop&w=800&q=80",
+      "name": "Americano",
+      "price": 3.99,
       "rating": 4.7
     },
     {
-      "id": "cf004",
-      "category": "Brewing Equipment",
-      "description": "Precision temperature control electric gooseneck kettle",
-      "image_url": "https://images.unsplash.com/photo-1522012188892-24beb302783d",
-      "name": "Electric Gooseneck Kettle",
-      "price": 79.99,
+      "id": "drink003",
+      "category": "Cold Coffee",
+      "description": "Espresso poured over ice with cold milk",
+      "image_url": "https://images.unsplash.com/photo-1578681994506-b8f463449011?auto=format&fit=crop&w=800&q=80",
+      "name": "Iced Latte",
+      "price": 5.49,
+      "rating": 4.9
+    },
+    {
+      "id": "food001",
+      "category": "Breakfast",
+      "description": "Two eggs any style with toast, bacon, and hash browns",
+      "image_url": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=800&q=80",
+      "name": "Classic Breakfast",
+      "price": 12.99,
       "rating": 4.8
     },
     {
-      "id": "cf005",
-      "category": "Accessories",
-      "description": "Premium bamboo coffee filter holder and organizer",
-      "image_url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
-      "name": "Filter Holder",
-      "price": 24.99,
-      "rating": 4.5
+      "id": "food050",
+      "category": "Desserts",
+      "description": "Rich chocolate cake with vanilla ice cream and hot fudge",
+      "image_url": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
+      "name": "Chocolate Cake à la Mode",
+      "price": 8.99,
+      "rating": 4.9
     },
     {
-      "id": "cf006",
-      "category": "Coffee Beans",
-      "description": "Medium roast Brazilian Santos with nutty undertones",
-      "image_url": "https://images.unsplash.com/photo-1587734338437-dda7a9032397",
-      "name": "Brazilian Santos",
-      "price": 15.99,
+      "id": "drink005",
+      "category": "Hot Coffee",
+      "description": "Espresso with chocolate, steamed milk, and whipped cream",
+      "image_url": "https://images.unsplash.com/photo-1561087513-49e0d9dde4dd?auto=format&fit=crop&w=800&q=80",
+      "name": "Mocha",
+      "price": 5.49,
+      "rating": 4.7
+    },
+    {
+      "id": "drink006",
+      "category": "Cold Coffee",
+      "description": "24-hour steeped cold brew with a smooth finish",
+      "image_url": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80",
+      "name": "Cold Brew",
+      "price": 4.99,
+      "rating": 4.8
+    },
+    {
+      "id": "drink007",
+      "category": "Tea",
+      "description": "Classic English Breakfast tea with optional milk",
+      "image_url": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=800&q=80",
+      "name": "English Breakfast Tea",
+      "price": 3.49,
       "rating": 4.6
     },
     {
-      "id": "cf007",
-      "category": "Brewing Equipment",
-      "description": "Professional grade manual burr coffee grinder",
-      "image_url": "https://images.unsplash.com/photo-1511538524935-4d77b87f4db3",
-      "name": "Manual Burr Grinder",
-      "price": 65.99,
-      "rating": 4.7
-    },
-    {
-      "id": "cf008",
-      "category": "Coffee Beans",
-      "description": "Sumatra Mandheling dark roast with earthy, full-bodied flavor",
-      "image_url": "https://images.unsplash.com/photo-1559525839-b184a4d698c7",
-      "name": "Sumatra Dark Roast",
-      "price": 19.99,
+      "id": "drink008",
+      "category": "Cold Coffee",
+      "description": "Blended coffee frappe with caramel and whipped cream",
+      "image_url": "https://images.unsplash.com/photo-1586347437904-04a21e21162e?auto=format&fit=crop&w=800&q=80",
+      "name": "Caramel Frappe",
+      "price": 5.99,
       "rating": 4.9
     },
     {
-      "id": "cf009",
-      "category": "Accessories",
-      "description": "Digital coffee scale with timer for precise brewing",
-      "image_url": "https://images.unsplash.com/photo-1517080790043-86c079ffa5be",
-      "name": "Digital Coffee Scale",
-      "price": 49.99,
-      "rating": 4.8
-    },
-    {
-      "id": "cf010",
-      "category": "Coffee Beans",
-      "description": "Costa Rican Tarrazu medium roast with bright acidity",
-      "image_url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd",
-      "name": "Costa Rican Tarrazu",
-      "price": 17.99,
+      "id": "drink009",
+      "category": "Tea",
+      "description": "Green tea with jasmine flowers",
+      "image_url": "https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?auto=format&fit=crop&w=800&q=80",
+      "name": "Jasmine Green Tea",
+      "price": 3.99,
       "rating": 4.7
     },
     {
-      "id": "cf011",
-      "category": "Brewing Equipment",
-      "description": "Stainless steel French press coffee maker, 34-ounce capacity",
-      "image_url": "https://images.unsplash.com/photo-1520903920513-bc2be4b08b02",
-      "name": "French Press",
-      "price": 39.99,
-      "rating": 4.9
-    },
-    {
-      "id": "cf012",
-      "category": "Coffee Beans",
-      "description": "Light roasted Kenyan AA beans with bright berry and citrus notes",
-      "image_url": "https://images.unsplash.com/photo-1587734338437-dda7a9032397",
-      "name": "Kenyan AA Light Roast",
-      "price": 21.99,
+      "id": "food002",
+      "category": "Breakfast",
+      "description": "Fluffy buttermilk pancakes with maple syrup",
+      "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=800&q=80",
+      "name": "Buttermilk Pancakes",
+      "price": 10.99,
       "rating": 4.8
     },
     {
-      "id": "cf013",
-      "category": "Brewing Equipment",
-      "description": "Classic Hario V60 ceramic pour-over coffee dripper",
-      "image_url": "https://images.unsplash.com/photo-1522012188892-24beb302783d",
-      "name": "Hario V60 Dripper",
-      "price": 29.99,
+      "id": "food003",
+      "category": "Lunch",
+      "description": "Grilled chicken with avocado on sourdough",
+      "image_url": "https://images.unsplash.com/photo-1550507992-eb63ffdc42ac?auto=format&fit=crop&w=800&q=80",
+      "name": "Chicken Avocado Sandwich",
+      "price": 13.99,
+      "rating": 4.7
+    },
+    {
+      "id": "pastry001",
+      "category": "Pastries",
+      "description": "Freshly baked butter croissant",
+      "image_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80",
+      "name": "Butter Croissant",
+      "price": 3.99,
+      "rating": 4.8
+    },
+    {
+      "id": "food004",
+      "category": "Breakfast",
+      "description": "Avocado toast with poached eggs and microgreens",
+      "image_url": "https://images.unsplash.com/photo-1603046891726-36bfd957e0bf?auto=format&fit=crop&w=800&q=80",
+      "name": "Avocado Toast",
+      "price": 11.99,
+      "rating": 4.8
+    },
+    {
+      "id": "drink010",
+      "category": "Hot Coffee",
+      "description": "Signature blend espresso with hot water and steamed milk",
+      "image_url": "https://images.unsplash.com/photo-1572814510619-27cf6b3daa0f?auto=format&fit=crop&w=800&q=80",
+      "name": "Café au Lait",
+      "price": 4.49,
+      "rating": 4.6
+    },
+    {
+      "id": "food005",
+      "category": "Lunch",
+      "description": "Mixed greens with grilled salmon and citrus vinaigrette",
+      "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80",
+      "name": "Salmon Salad",
+      "price": 15.99,
+      "rating": 4.9
+    },
+    {
+      "id": "pastry002",
+      "category": "Pastries",
+      "description": "Chocolate-filled croissant",
+      "image_url": "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=800&q=80",
+      "name": "Pain au Chocolat",
+      "price": 4.49,
+      "rating": 4.8
+    },
+    {
+      "id": "drink011",
+      "category": "Cold Coffee",
+      "description": "Vietnamese coffee with condensed milk over ice",
+      "image_url": "https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?auto=format&fit=crop&w=800&q=80",
+      "name": "Vietnamese Iced Coffee",
+      "price": 5.49,
+      "rating": 4.9
+    },
+    {
+      "id": "food006",
+      "category": "Breakfast",
+      "description": "Three egg omelet with cheese and vegetables",
+      "image_url": "https://images.unsplash.com/photo-1612940960267-4549a58fb257?auto=format&fit=crop&w=800&q=80",
+      "name": "Veggie Omelet",
+      "price": 12.99,
+      "rating": 4.7
+    },
+    {
+      "id": "dessert001",
+      "category": "Desserts",
+      "description": "New York style cheesecake with berry compote",
+      "image_url": "https://images.unsplash.com/photo-1524351199678-941a58a3df50?auto=format&fit=crop&w=800&q=80",
+      "name": "Classic Cheesecake",
+      "price": 7.99,
+      "rating": 4.9
+    },
+    {
+      "id": "drink012",
+      "category": "Tea",
+      "description": "Spiced chai tea with steamed milk",
+      "image_url": "https://images.unsplash.com/photo-1561751188-c89782525320?auto=format&fit=crop&w=800&q=80",
+      "name": "Chai Latte",
+      "price": 4.99,
+      "rating": 4.8
+    },
+    {
+      "id": "food007",
+      "category": "Lunch",
+      "description": "Homemade tomato soup with grilled cheese",
+      "image_url": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=800&q=80",
+      "name": "Tomato Soup Combo",
+      "price": 12.99,
+      "rating": 4.7
+    },
+    {
+      "id": "pastry003",
+      "category": "Pastries",
+      "description": "Fresh-baked blueberry muffin",
+      "image_url": "https://images.unsplash.com/photo-1587242563817-bfd3fb5a1b91?auto=format&fit=crop&w=800&q=80",
+      "name": "Blueberry Muffin",
+      "price": 3.99,
+      "rating": 4.6
+    },
+    {
+      "id": "dessert002",
+      "category": "Desserts",
+      "description": "Warm apple pie with vanilla ice cream",
+      "image_url": "https://images.unsplash.com/photo-1568571780765-9276235f1946?auto=format&fit=crop&w=800&q=80",
+      "name": "Apple Pie à la Mode",
+      "price": 8.49,
       "rating": 4.8
     }
   ]
