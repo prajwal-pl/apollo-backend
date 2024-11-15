@@ -14,11 +14,21 @@ datasource db {
 }
 
 model Product {
-  id          String @id
+  id          String  @id
   category    String
   description String
   image_url   String
   name        String
   price       Float
   rating      Float
+  orders      Order[]
+}
+
+model Order {
+  id        String   @id
+  productId String   @unique
+  product   Product  @relation(fields: [productId], references: [id])
+  quantity  Int
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }

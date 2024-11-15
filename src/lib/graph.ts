@@ -8,7 +8,12 @@ import {
   Support,
 } from "../../types/graph-types";
 import { processMessageEdge } from "./edges";
-import { processMessageNode } from "./nodes";
+import {
+  processFeedbackNode,
+  processMessageNode,
+  processRecommendationNode,
+  processSupportNode,
+} from "./nodes";
 
 const GraphState = Annotation.Root({
   message: Annotation<Message>(),
@@ -25,13 +30,16 @@ export type Update = typeof GraphState.Update;
 export const createGraph = () => {
   const workflow = new StateGraph(GraphState)
     .addNode("processMessage", processMessageNode)
-    .addNode("processFeedback", {})
-    .addNode("processSupport", {})
+    .addNode("processFeedback", processFeedbackNode)
+    .addNode("processSupport", processSupportNode)
     .addNode("processOrder", {})
-    .addNode("processRecommendation", {})
+    .addNode("processRecommendation", processRecommendationNode)
 
     .addEdge("__start__", "processMessage")
-    .addConditionalEdges("processMessage", processMessageEdge);
+    .addConditionalEdges("processMessage", processMessageEdge)
+    .addEdge("processFeedback", "__end__")
+    .addEdge("processSupport", "__end__")
+    .addEdge("processOrder", "__end__");
 
   const graph = workflow.compile();
 
