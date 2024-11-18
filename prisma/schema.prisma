@@ -26,9 +26,10 @@ model Product {
 
 model Order {
   id        String   @id
-  productId String   @unique
+  productId String
   product   Product  @relation(fields: [productId], references: [id])
   quantity  Int
+  total     Float
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }

@@ -11,6 +11,7 @@ import { processMessageEdge } from "./edges";
 import {
   processFeedbackNode,
   processMessageNode,
+  processOrderNode,
   processRecommendationNode,
   processSupportNode,
 } from "./nodes";
@@ -22,6 +23,10 @@ const GraphState = Annotation.Root({
   feedback: Annotation<Feedback>(),
   support: Annotation<Support>(),
   order: Annotation<Order>(),
+  orderState: Annotation<{
+    status: "initial" | "confirming" | "complete";
+    context: any;
+  }>(),
 });
 
 export type State = typeof GraphState.State;
@@ -32,7 +37,7 @@ export const createGraph = () => {
     .addNode("processMessage", processMessageNode)
     .addNode("processFeedback", processFeedbackNode)
     .addNode("processSupport", processSupportNode)
-    .addNode("processOrder", {})
+    .addNode("processOrder", processOrderNode)
     .addNode("processRecommendation", processRecommendationNode)
 
     .addEdge("__start__", "processMessage")

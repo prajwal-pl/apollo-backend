@@ -24,7 +24,7 @@ export async function GET(req: NextRequest) {
       headers: corsHeaders,
     });
   } catch (error) {
-    console.error(error);
+    console.log(error);
     return new NextResponse(
       JSON.stringify({
         message: "Internal server error",
